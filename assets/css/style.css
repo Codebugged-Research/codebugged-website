@@ -21,6 +21,11 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.domain-img {
+  width: 35vw;
+  height: auto;
+}
+
 #logo1 {
   max-width: 30vw;
   height: auto;
@@ -473,6 +478,10 @@ h6 {
 
   #hero .hero-img img {
     width: 50%;
+  }
+
+  #logo1 {
+    display: none;
   }
 }
 
