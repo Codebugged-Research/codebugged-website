@@ -37,6 +37,10 @@ h6 {
   color: #f4f4f4;
 }
 
+#head-line {
+  font-size: 2rem;
+}
+
 #msme-logo,
 #cd-logo-2 {
   width: 8rem;
@@ -114,13 +118,14 @@ h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 22px 0;
-  /* background: #000; */
+  background: #0B121B;
+  color: #fff !important;
 }
 
 #header.header-scrolled {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 15px 0;
-  background: #fff;
+  background: #0B121B;
 }
 
 #header .logo h1 {
@@ -174,7 +179,8 @@ h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #555555;
+  /* color: #555555; */
+  color: #fff;
   padding: 8px 0 12px 25px;
   transition: 0.3s;
   font-size: 14px;
@@ -417,7 +423,9 @@ h6 {
   width: 100%;
   height: 70vh;
   margin-top: 70px;
-  /* background-color: #000000; */
+  background-color: #0b121b;
+  /* background: url(../img/62-629252_header-art-graphic-design-hd-png-download.png) center center/cover no-repeat; */
+  /* background: url(../svg/wave.svg) center center/cover no-repeat; */
 }
 
 #hero h1 {
