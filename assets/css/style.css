@@ -1252,6 +1252,9 @@ section {
 .team .member:hover .social {
   opacity: 1;
 }
+.team .member .member-img:hover {
+  border: solid #3498db;
+}
 
 /*--------------------------------------------------------------
 # Pricing
