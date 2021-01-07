@@ -21,6 +21,7 @@
       href="assets/vendor/bootstrap/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
     <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
@@ -767,58 +768,25 @@
           </div>
         </div>
       </div>
+      <iframe
+      id="chatbot-iframe"
+      onload="this.style.display='none';this.style.border='0.5px solid #ccc'"
+      src="https://swaksham.me:9975/"
+      allowtransparency="true"
+      style="
+        position: fixed;
+        bottom: 4.2rem;
+        z-index: 1000;
+        height: 32.2rem;
+        border-radius: 2%;
+        right: 2rem;
+        padding-bottom: 0;
+      "
+      frameborder="0"
+    >
+    </iframe>
     </footer>
     <!-- End Footer -->
-
-    <!-- <i class="fa fa-comment open-close-button stat-close" style="font-size: xxx-large; font-weight:thinner"></i>
-
-    <div class="col-sm-3 col-sm-offset-4 frame chat-popup" id="myForm">
-        <div class="chat-header">
-        SWAR <i class="fa fa-times close-button" aria-hidden="true"></i>
-        </div>
-        <div class="msgs-container">
-          <ul class="messages"></ul>
-        </div>
-        
-        <div style="position:absolute">
-            <div class="text-box-class" style="background:white">           
-                <div style="padding-left:0.5rem;margin-bottom:0rem;padding-bottom:0rem;font-size:small;width:100%;border:none;background-color:white">
-                <hr>
-                  <button type="button" class="collapsible">Menu</button>
-                  <div class="menu_content vertical-menu">
-                    <a class="menu_a" href="#intro">What is SWAR?</a>
-                    <a class="menu_a" href="#solutions">Our Solutions</a>
-                    <a class="menu_a" href="#">Whats new?</a>
-                    <a class="menu_a" href="#">Request a demo</a>
-                  </div>
-                <hr>
-                </div> 
-
-
-                <div class="text" style="margin-top:0rem;padding-top:0rem;background:whitesmoke !important">
-                    <input class="mytext" placeholder="Type a message"/>
-                    
-                </div> 
-                
-                <div style="padding-left:0.5rem;padding-bottom:0.5rem;font-size:small;margin-left:4rem"><center>Powered by <b style="color:#0b121b">SWAR AI</b></center></div> 
-
-            </div>             
-        </div>
-        
-        
-    </div>      -->
-
-    <!--
-    <script>
-    function openForm() {
-      document.getElementById("myForm").style.display = "block";
-    }
-
-    function closeForm() {
-      document.getElementById("myForm").style.display = "none";
-    }
-    </script>
-    -->
     
     <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>

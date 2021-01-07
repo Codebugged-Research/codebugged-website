@@ -37,6 +37,10 @@
       href="assets/vendor/owl.carousel/assets/owl.carousel.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
     <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
@@ -576,20 +580,39 @@
       </div>
     </footer>
     <!-- End Footer -->
-    <!-- <iframe
+    <i
+      class="fa fa-comment"
+      onclick="console.log('hello');var chtIframe = document.getElementById('chatbot-iframe'); chtIframe.style.display == 'block' ? chtIframe.style.display = 'none' : chtIframe.style.display = 'block'; this.classList.contains('fa-comment') ? this.classList.remove('fa-comment') & this.classList.add('fa-commenting') : this.classList.remove('fa-commenting') & this.classList.add('fa-comment')"
+      style="
+        font-size: xxx-large;
+        font-weight: thinner;
+        z-index: 9;
+        background-color: none;
+        border: none;
+        cursor: pointer;
+        position: fixed;
+        bottom: 1rem;
+        right: 1.6rem;
+        color: #87ceeb;
+      "
+    ></i>
+    <iframe
+      id="chatbot-iframe"
+      onload="this.style.display='none';this.style.border='0.5px solid #ccc'"
       src="https://swaksham.me:9975/"
       allowtransparency="true"
       style="
         position: fixed;
-        bottom: 5px;
-        float: right;
-        z-index: 2147483647;
-        height: 100%;
-        width: 100%;
+        bottom: 4.2rem;
+        z-index: 1000;
+        height: 32.2rem;
+        border-radius: 2%;
+        right: 2rem;
+        padding-bottom: 0;
       "
       frameborder="0"
     >
-    </iframe> -->
+    </iframe>
     <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
     <!-- Vendor JS Files -->
