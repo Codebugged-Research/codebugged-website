@@ -1,5 +1,7 @@
 # codebugged-website
 
+LOGO OF BRAND-- https://drive.google.com/drive/folders/1-YTQehLEVoOcjyNoHNLPmug6c5n9I6dA?usp=sharing
+
 colour code of brand
 
 blue--  #5c82e3    rgba(92,130,227,255)
